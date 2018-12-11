@@ -6,4 +6,10 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
+    'Prophecy\\' => array($vendorDir . '/phpspec/prophecy/src'),
+    'Pimple' => array($vendorDir . '/pimple/pimple/src'),
+    'Parsedown' => array($vendorDir . '/erusev/parsedown'),
+    'Otp' => array($vendorDir . '/christian-riesen/otp/src'),
+    'Eluceo\\iCal' => array($vendorDir . '/eluceo/ical/src'),
+    '' => array($baseDir . '/libs'),
 );
