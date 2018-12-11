@@ -1,0 +1,6 @@
+{
+	"name": "kanboard-gitlab-utfpr",
+	"require" : {
+		"pdo_sqlite": "*"
+	}
+}
